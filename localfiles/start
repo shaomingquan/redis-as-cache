@@ -1,0 +1,5 @@
+#!/bin/sh
+redis="/home/op_dev/services/redis/redis-5.0.5/src/redis-server"
+REDIS_CONFIG_FILE="/home/op_dev/services/redis/localfiles/redis.conf"
+
+$redis $REDIS_CONFIG_FILE

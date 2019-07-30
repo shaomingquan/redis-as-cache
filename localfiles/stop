@@ -1,0 +1,4 @@
+#!/bin/sh
+
+PID_FILE="/home/op_dev/services/redis/localfiles/redis_6379.pid"
+kill -s QUIT $(cat $PID_FILE)
