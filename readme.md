@@ -1,6 +1,6 @@
-redis no-persistence lru cache
+redis no-persistence, daemonize lru cache
 
-just clone it on your centos mechine, `cd localfiles` & `./start` 
+before using it, check files under localfiles and modify some directory conf
 
 - https://redis.io/topics/persistence
 - https://redis.io/topics/lru-cache
